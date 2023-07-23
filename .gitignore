@@ -1,0 +1,48 @@
+# Maven target directory
+/target/
+
+# Log files in src/main/resources/logs
+/src/main/resources/logs/
+
+# Log files in the root resources directory (if applicable)
+/resources/logs/
+
+# IDE-specific files and directories
+/.classpath
+/.project
+/.settings/
+/.vscode/
+
+# Build files
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven build log files
+/mvn*.log
+
+# Eclipse-specific files
+*.launch
+*.iml
+*.metadata/
+bin/
+tmp/
+.settings/
+.project
+.classpath
+
+# IntelliJ-specific files
+*.iml
+*.iws
+*.ipr
+/.idea/
+/out/
+
+# NetBeans-specific files
+/nbproject/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/

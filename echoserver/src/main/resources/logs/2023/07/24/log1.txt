@@ -1,0 +1,12 @@
+Request:
+GET / HTTP/1.1
+Accept: */*
+User-Agent: curl/7.81.0
+Host: 192.168.3.7:18888
+
+
+Response:
+200 text/plain;charset=iso-8859-1
+Date: Sun, 23 Jul 2023 16:35:21 GMT
+Content-Type: text/plain;charset=iso-8859-1
+
