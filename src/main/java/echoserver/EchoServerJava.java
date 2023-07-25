@@ -14,6 +14,8 @@ import javax.servlet.http.HttpServletResponse;
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.server.handler.AbstractHandler;
 
+import testdata.AccessHistoryTEST;
+
 public class EchoServerJava {
 	public static void main(String[] args) throws Exception {
 		// ログディレクトリのパスを指定します
@@ -26,6 +28,10 @@ public class EchoServerJava {
 		server.setHandler(new EchoHandler(logWriter));
 
 		System.out.println("start http listening :18888");
+
+		//テスト用メソッド
+		AccessHistoryTEST accessHistoryTEST = new AccessHistoryTEST();
+		
 		// サーバーを起動し、リクエストを待ち受けます
 		server.start();
 		// サーバーが終了するまで待機します
