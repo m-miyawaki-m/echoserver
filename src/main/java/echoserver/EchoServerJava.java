@@ -17,7 +17,7 @@ import org.eclipse.jetty.server.handler.AbstractHandler;
 public class EchoServerJava {
 	public static void main(String[] args) throws Exception {
 		// ログディレクトリのパスを指定します
-		String logDirectory = "/opt/echoserver/resources/logs";
+		String logDirectory = EchoServerProperty.LOG_DIRECTORY;
 		// LogWriterのインスタンスを作成します
 		LogWriter logWriter = new LogWriter(logDirectory);
 
