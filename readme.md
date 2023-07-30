@@ -20,3 +20,22 @@ wsl上のubuntuからwindws上で実行しているエコーサーバーに接�
 ```linux
 curl http://192.168.3.7:18888/
 ```
+
+
+## build
+mvn clean packageコマンドを実行すれば、targetディレクトリに実行可能なJARファイルが生成されます。
+
+なお、<mainClass>に指定するクラスは、そのプロジェクトのメインメソッド（public static void main(String[] args)）を持つクラスをフルクラス名で指定します。
+
+buileのエンコード>>#UTF-8
+
+## jarファイル配置場所
+
+```
+/home/vscode/jar
+```
+
+## 実行スクリプト配置場所
+```
+/home/vscode/scripts/
+```
